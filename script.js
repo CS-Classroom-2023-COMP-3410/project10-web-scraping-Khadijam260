@@ -53,7 +53,7 @@ async function scrapeCourses() {
 // API URL for live stats
 url = "https://denverpioneers.com/services/responsive-calendar.ashx?type=month&sport=0&location=all&date=3%2F1%2F2025+12%3A00%3A00+AM";
 
-async function scrapeEvents() {
+async function scrapeSportEvents() {
     try {
         const response = await axios.get(url);
         const data = response.data; // API response
@@ -91,8 +91,23 @@ async function scrapeEvents() {
 }
 
 // Run the scraper
-// scrapeEvents();
-const calendarUrl = "https://www.du.edu/calendar";
+// scrapeSportEvents();
+
+const BASE_URL = "https://www.du.edu/calendar";
+const MONTHS = [
+    ["2025-01-01", "2025-02-01"],
+    ["2025-02-01", "2025-03-01"],
+    ["2025-03-01", "2025-04-01"],
+    ["2025-04-01", "2025-05-01"],
+    ["2025-05-01", "2025-06-01"],
+    ["2025-06-01", "2025-07-01"],
+    ["2025-07-01", "2025-08-01"],
+    ["2025-08-01", "2025-09-01"],
+    ["2025-09-01", "2025-10-01"],
+    ["2025-10-01", "2025-11-01"],
+    ["2025-11-01", "2025-12-01"],
+    ["2025-12-01", "2026-01-01"]
+];
 
 async function fetchEventDetails(eventUrl) {
     try {
@@ -106,53 +121,64 @@ async function fetchEventDetails(eventUrl) {
     }
 }
 
+
 async function scrapeDUCalendar() {
-    try {
-        const { data } = await axios.get(calendarUrl);
-        const $ = cheerio.load(data);
+    let allEvents = [];
 
-        let eventPromises = [];
+    for (let [start, end] of MONTHS) {
+        try {
+            console.log(`📅 Scraping events from ${start} to ${end}...`);
+            let url = `${BASE_URL}?search=&start_date=${start}&end_date=${end}#events-listing-date-filter-anchor`;
+            let { data } = await axios.get(url);
+            let $ = cheerio.load(data);
 
-        $(".event-card").each((_, element) => {
-            const title = $(element).find("h3").text().trim();
-            const date = $(element).find("p:first").text().trim();
-            const time = $(element).find(".icon-du-clock").parent().text().trim();
-            const location = $(element).find(".icon-du-location").parent().text().trim();
-            let detailsUrl = $(element).attr("href");
+            let eventPromises = [];
 
-            if (detailsUrl) {
-                if (!detailsUrl.startsWith("http")) {
-                    detailsUrl = `https://www.du.edu${detailsUrl}`;
-                }
-            } else {
-                detailsUrl = "No URL available";
-            }
+            $(".event-card").each((_, element) => {
+                const title = $(element).find("h3").text().trim();
+                const date = $(element).find("p:first").text().trim();
+                const time = $(element).find(".icon-du-clock").parent().text().trim();
+                const location = $(element).find(".icon-du-location").parent().text().trim();
 
-            eventPromises.push(
-                fetchEventDetails(detailsUrl).then(description => ({
-                    title,
-                    date,
-                    time,
-                    location,
-                    description
-                }))
-            );
-        });
+                // 🔹 FIX: Ensure the correct event link is extracted
+                let detailsUrl = $(element).attr("href");
 
-        const events = await Promise.all(eventPromises);
+                if (detailsUrl) {
+                    if (!detailsUrl.startsWith("http")) {
+                        detailsUrl = `https://www.du.edu${detailsUrl}`;
+                    }
+                } else {
+                    detailsUrl = "No URL available";
+                }    
 
-        if (events.length === 0) {
-            console.log("⚠️ No events found. Check the selector or website structure.");
+                // Fetch descriptions asynchronously
+                eventPromises.push(
+                    fetchEventDetails(detailsUrl).then(description => ({
+                        title,
+                        date,
+                        time,
+                        location,
+                        description
+                    }))
+                );
+            });
+
+            const monthEvents = await Promise.all(eventPromises);
+            allEvents.push(...monthEvents);
+
+        } catch (error) {
+            console.error(`❌ Error scraping events from ${start} to ${end}:`, error.message);
         }
-
-        await fs.ensureDir("results");
-        await fs.writeJson("results/calendar_events.json", { events }, { spaces: 2 });
-
-        console.log("Scraping completed. Data saved in results/calendar_events.json");
-
-    } catch (error) {
-        console.error("Error scraping calendar:", error.message);
     }
+
+    if (allEvents.length === 0) {
+        console.log("⚠️ No events found. Check the selector or website structure.");
+    }
+
+    await fs.ensureDir("results");
+    await fs.writeJson("results/calendar_events.json", { events: allEvents }, { spaces: 2 });
+
+    console.log("✅ Scraping completed. Data saved in results/calendar_events.json");
 }
 
 scrapeDUCalendar();

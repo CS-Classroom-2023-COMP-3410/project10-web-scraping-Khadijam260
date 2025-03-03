@@ -1,0 +1,469 @@
+{
+  "events": [
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Jacksonville State",
+      "date": "2025-02-23"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "San Diego State",
+      "date": "2025-02-23"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "South Dakota State",
+      "date": "2025-02-27"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Kansas City",
+      "date": "2025-02-27"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "BYU",
+      "date": "2025-02-28"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Iowa State, (18) NC State",
+      "date": "2025-02-28"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Marist",
+      "date": "2025-02-28"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "St. Cloud State",
+      "date": "2025-02-28"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "South Dakota",
+      "date": "2025-03-01"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Maryland",
+      "date": "2025-03-01"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "South Dakota State",
+      "date": "2025-03-01"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Kansas City",
+      "date": "2025-03-01"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "St. Cloud State",
+      "date": "2025-03-01"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Omaha",
+      "date": "2025-03-02"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Utah",
+      "date": "2025-03-02"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Quinnipiac",
+      "date": "2025-03-02"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Colorado Rapids II",
+      "date": "2025-03-02"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Round 1/2",
+      "date": "2025-03-03"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Round 3",
+      "date": "2025-03-04"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Giant Slalom",
+      "date": "2025-03-05"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Michigan",
+      "date": "2025-03-05"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Omaha",
+      "date": "2025-03-05"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "7.5K Classic",
+      "date": "2025-03-06"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "South Dakota State",
+      "date": "2025-03-06"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "St. Thomas",
+      "date": "2025-03-06"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Slalom",
+      "date": "2025-03-07"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Colorado College",
+      "date": "2025-03-07"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "20K Freestyle",
+      "date": "2025-03-08"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Yale",
+      "date": "2025-03-08"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "St. Thomas",
+      "date": "2025-03-08"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Semifinal",
+      "date": "2025-03-08"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Colorado College",
+      "date": "2025-03-08"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Semifinal",
+      "date": "2025-03-08"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Fairfield",
+      "date": "2025-03-09"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Arizona State",
+      "date": "2025-03-09"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Championship",
+      "date": "2025-03-09"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Championship",
+      "date": "2025-03-09"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NCAA Zone E Diving",
+      "date": "2025-03-10"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NCAA Zone E Diving",
+      "date": "2025-03-10"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NCAA Zone E Diving",
+      "date": "2025-03-10"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NCAA Zone E Diving",
+      "date": "2025-03-10"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NCAA Zone E Diving",
+      "date": "2025-03-10"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NCAA Zone E Diving",
+      "date": "2025-03-10"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NIC Championships",
+      "date": "2025-03-12"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NIC Championships",
+      "date": "2025-03-12"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NIC Championships",
+      "date": "2025-03-12"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NIC Championships",
+      "date": "2025-03-12"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NIC Championships",
+      "date": "2025-03-12"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NIC Championships",
+      "date": "2025-03-12"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Quarterfinals",
+      "date": "2025-03-14"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Idaho State",
+      "date": "2025-03-14"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Stanford",
+      "date": "2025-03-14"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NIC Championships",
+      "date": "2025-03-12"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NIC Championships",
+      "date": "2025-03-12"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Quarterfinals",
+      "date": "2025-03-14"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Quarterfinals",
+      "date": "2025-03-14"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "UTSA",
+      "date": "2025-03-16"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Ohio State",
+      "date": "2025-03-16"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Stony Brook",
+      "date": "2025-03-18"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NCAA Championships",
+      "date": "2025-03-19"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NCAA Championships",
+      "date": "2025-03-19"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NCAA Championships",
+      "date": "2025-03-19"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Frozen Faceoff",
+      "date": "2025-03-21"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NCAA Championships",
+      "date": "2025-03-19"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Frozen Faceoff",
+      "date": "2025-03-21"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Big 12 Championship",
+      "date": "2025-03-22"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Duke",
+      "date": "2025-03-22"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Xavier",
+      "date": "2025-03-23"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Round 1/2",
+      "date": "2025-03-24"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Round 1",
+      "date": "2025-03-24"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Round 2",
+      "date": "2025-03-25"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Round 3",
+      "date": "2025-03-25"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NCAA Championships",
+      "date": "2025-03-26"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Round 3",
+      "date": "2025-03-26"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Columbia",
+      "date": "2025-03-26"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NCAA Championships",
+      "date": "2025-03-26"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NCAA Championships",
+      "date": "2025-03-26"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Dartmouth",
+      "date": "2025-03-28"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Illinois State",
+      "date": "2025-03-28"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NCAA Championships",
+      "date": "2025-03-26"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Harvard",
+      "date": "2025-03-29"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Georgetown",
+      "date": "2025-03-29"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Villanova",
+      "date": "2025-03-29"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Oral Roberts",
+      "date": "2025-03-30"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NCAA Regionals",
+      "date": "2025-04-02"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Marquette",
+      "date": "2025-04-02"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NCAA Regionals",
+      "date": "2025-04-02"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NCAA Regionals",
+      "date": "2025-04-02"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Omaha",
+      "date": "2025-04-04"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "NCAA Regionals",
+      "date": "2025-04-02"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Air Force",
+      "date": "2025-04-05"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "St. John's",
+      "date": "2025-04-05"
+    },
+    {
+      "duTeam": "Denver Pioneers",
+      "opponent": "Oral Roberts",
+      "date": "2025-04-05"
+    }
+  ]
+}
